@@ -7,8 +7,6 @@ public class sistemaControl {
 	public static void main(String[] args) {
 		Scanner entrada = new Scanner (System.in);
 		System.out.println("Introduce un altura: ");
-
-		System.out.println("Introduce un lado: ");
 		int altura = entrada.nextInt();
 		System.out.println("Introduce otro base: ");
 		int base = entrada.nextInt();
