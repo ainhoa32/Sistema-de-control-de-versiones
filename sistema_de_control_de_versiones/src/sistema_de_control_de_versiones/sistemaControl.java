@@ -11,7 +11,7 @@ public class sistemaControl {
 		int altura = entrada.nextInt();
 		System.out.println("Introduce otro base: ");
 		int base = entrada.nextInt();
-		System.out.println("el area del triangulo es : "+calcularArea(base,altura);
+		System.out.println("el area del triangulo es : "+calcularArea(base,altura));
 	}public static double calcularArea(int base, int altura) {
 		return base * altura / 2;
 	}
