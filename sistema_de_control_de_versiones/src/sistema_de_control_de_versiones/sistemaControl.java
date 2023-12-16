@@ -15,6 +15,13 @@ public class sistemaControl {
 		int radio = entrada.nextInt();
 		System.out.println("el area de la circunferencia es: "+calaACirc(radio));
 		System.out.println("el perimetro de la circunferencia es : "+perimetroACirc(radio));
+		
+		System.out.println("Introduce la altura para el cilindro: ");
+		int alturaCil = entrada.nextInt();
+		
+		System.out.println("Introduce la altura para el cilindro: ");
+		int radioCil = entrada.nextInt();
+		System.out.println("El área del cilindro es: " + areaCilindro(alturaCil, radioCil));
 
 	}public static double calcularArea(int base, int altura) {
 		return base * altura / 2;
@@ -28,5 +35,7 @@ public class sistemaControl {
 		double perimetro;
 		perimetro=2*(pi*radio);
 		return perimetro;
+	}public static double areaCilindro(int alturaCil, int radioCil) {
+		return 2*3.14* alturaCil + 2*3.14* radioCil;
 	}
 }
