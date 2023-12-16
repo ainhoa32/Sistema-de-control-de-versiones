@@ -11,8 +11,6 @@ public class sistemaControl {
 		System.out.println("Introduce otro base: ");
 		int base = entrada.nextInt();
 		System.out.println("el area del triangulo es : "+calcularArea(base,altura));
-
-		System.out.println("el area del trianfulo es"+calcularArea(base,altura));
 		System.out.println("Introduce el radio: ");
 		int radio = entrada.nextInt();
 		System.out.println("el area de la circunferencia es: "+calaACirc(radio));
