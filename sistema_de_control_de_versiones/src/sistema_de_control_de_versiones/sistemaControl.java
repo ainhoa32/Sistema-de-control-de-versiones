@@ -11,7 +11,6 @@ public class sistemaControl {
 		System.out.println("Introduce otro base: ");
 		int base = entrada.nextInt();
 		System.out.println("el area del triangulo es : "+calcularArea(base,altura));
-		System.out.println("el area del trianfulo es"+calcularArea(base,altura));
 		System.out.println("Introduce el radio: ");
 		int radio = entrada.nextInt();
 		System.out.println("el area de la circunferencia es: "+calaACirc(radio));
@@ -20,11 +19,15 @@ public class sistemaControl {
 		System.out.println("Introduce la altura para el cilindro: ");
 		int alturaCil = entrada.nextInt();
 		
-		System.out.println("Introduce la altura para el cilindro: ");
+		System.out.println("Introduce la radio para el cilindro: ");
 		int radioCil = entrada.nextInt();
 		System.out.println("El área del cilindro es: " + areaCilindro(alturaCil, radioCil));
-		System.out.println("el area de la circunferencia es: "+calaACirc(radio));
-		System.out.println("el perimetro de la circunferencia es : "+perimetroACirc(radio));
+		
+		System.out.println("introduce el lado 1 del rectangulo");
+		int lado1rec=entrada.nextInt();
+		System.out.println("introduce el lado 2 del rectangulo");
+		int lado2rec=entrada.nextInt();
+		System.out.println("el area del rectangulo es : "+areaRectangulo(lado1rec,lado2rec));
 	}public static double calcularArea(int base, int altura) {
 		return base * altura / 2;
 	}public static double calaACirc(int radio) {
@@ -40,4 +43,8 @@ public class sistemaControl {
 	}public static double areaCilindro(int alturaCil, int radioCil) {
 		return 2*3.14* alturaCil + 2*3.14* radioCil;
 	}
+	public static double areaRectangulo(int lado1rec,int lado2rec) {
+		return ((lado1rec*2) + (lado2rec*2));
+	}
+	
 }
