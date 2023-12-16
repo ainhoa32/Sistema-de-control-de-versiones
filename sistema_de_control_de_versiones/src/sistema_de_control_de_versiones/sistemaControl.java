@@ -30,5 +30,5 @@ public class sistemaControl {
 		double perimetro;
 		perimetro=2*(pi*radio);
 		return perimetro;
-}
+	}
 }
