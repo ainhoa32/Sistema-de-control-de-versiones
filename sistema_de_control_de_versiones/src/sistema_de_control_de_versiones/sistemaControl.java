@@ -28,6 +28,8 @@ public class sistemaControl {
 		System.out.println("introduce el lado 2 del rectangulo");
 		int lado2rec=entrada.nextInt();
 		System.out.println("el area del rectangulo es : "+areaRectangulo(lado1rec,lado2rec));
+		System.out.println("Introduce el lado del cubo: ");
+		int ladoCubo = entrada.nextInt();
 	}public static double calcularArea(int base, int altura) {
 		return base * altura / 2;
 	}public static double calaACirc(int radio) {
@@ -45,6 +47,8 @@ public class sistemaControl {
 	}
 	public static double areaRectangulo(int lado1rec,int lado2rec) {
 		return ((lado1rec*2) + (lado2rec*2));
+	}public static double volCubo(int ladoCubo) {
+		return ladoCubo^3;
 	}
 	
 }
