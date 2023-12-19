@@ -50,5 +50,5 @@ public class sistemaControl {
 	}public static double volCubo(int ladoCubo) {
 		return ladoCubo^3;
 	}
-	
+	//merge desde master a ainhoa para llevar lo de ainhoa al master
 }
