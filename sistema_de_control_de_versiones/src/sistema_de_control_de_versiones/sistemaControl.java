@@ -50,5 +50,6 @@ public class sistemaControl {
 	}public static double volCubo(int ladoCubo) {
 		return ladoCubo^3;
 	}
-	
+	/**master, local, commit remoto(push),alumno2 commit y merge, en loca siempre, hace un push y previamente un pull de la rama master, crea la rama de alumno1, hace un commit y un merge, y un push, 
+ 	alumno2 hace un pull para descargarse la rama, trabaja en su rama, alumno2, hace un merge de master a rama de alumno2 para llevarlo a su rama y poder trabajar.**/
 }
