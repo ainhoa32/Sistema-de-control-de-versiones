@@ -51,4 +51,5 @@ public class sistemaControl {
 		return ladoCubo^3;
 	}
 	//merge desde master a ainhoa para llevar lo de ainhoa al master
+	//holasaa
 }
